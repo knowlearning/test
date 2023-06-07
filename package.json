@@ -18,7 +18,7 @@
     "@codemirror/search": "^6.4.0",
     "@codemirror/state": "^6.2.1",
     "@codemirror/view": "^6.12.0",
-    "@knowlearning/agents": "^0.3.7",
+    "@knowlearning/agents": "^0.3.13",
     "@vitejs/plugin-basic-ssl": "^1.0.1",
     "chai": "^4.3.7",
     "eslint-linter-browserify": "^8.41.0",
@@ -29,7 +29,7 @@
     "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.1.0",
-    "vite": "^4.3.2"
+    "@vitejs/plugin-vue": "^4.2.1",
+    "vite": "^4.3.5"
   }
 }

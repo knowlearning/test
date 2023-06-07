@@ -3,7 +3,7 @@ lockfileVersion: '6.0'
 dependencies:
   '@codemirror/autocomplete':
     specifier: ^6.7.1
-    version: 6.7.1(@codemirror/language@6.7.0)(@codemirror/state@6.2.1)(@codemirror/view@6.12.0)(@lezer/common@1.0.2)
+    version: 6.7.1(@codemirror/language@6.7.0)(@codemirror/state@6.2.1)(@codemirror/view@6.12.0)(@lezer/common@1.0.3)
   '@codemirror/commands':
     specifier: ^6.2.4
     version: 6.2.4
@@ -29,8 +29,8 @@ dependencies:
     specifier: ^6.12.0
     version: 6.12.0
   '@knowlearning/agents':
-    specifier: ^0.3.7
-    version: 0.3.7
+    specifier: ^0.3.13
+    version: 0.3.13
   '@vitejs/plugin-basic-ssl':
     specifier: ^1.0.1
     version: 1.0.1(vite@4.3.5)
@@ -58,10 +58,10 @@ dependencies:
 
 devDependencies:
   '@vitejs/plugin-vue':
-    specifier: ^4.1.0
+    specifier: ^4.2.1
     version: 4.2.1(vite@4.3.5)(vue@3.2.47)
   vite:
-    specifier: ^4.3.2
+    specifier: ^4.3.5
     version: 4.3.5
 
 packages:
@@ -101,6 +101,20 @@ packages:
       '@codemirror/state': 6.2.1
       '@codemirror/view': 6.12.0
       '@lezer/common': 1.0.2
+    dev: false
+
+  /@codemirror/autocomplete@6.7.1(@codemirror/language@6.7.0)(@codemirror/state@6.2.1)(@codemirror/view@6.12.0)(@lezer/common@1.0.3):
+    resolution: {integrity: sha512-hSxf9S0uB+GV+gBsjY1FZNo53e1FFdzPceRfCfD1gWOnV6o21GfB5J5Wg9G/4h76XZMPrF0A6OCK/Rz5+V1egg==}
+    peerDependencies:
+      '@codemirror/language': ^6.0.0
+      '@codemirror/state': ^6.0.0
+      '@codemirror/view': ^6.0.0
+      '@lezer/common': ^1.0.0
+    dependencies:
+      '@codemirror/language': 6.7.0
+      '@codemirror/state': 6.2.1
+      '@codemirror/view': 6.12.0
+      '@lezer/common': 1.0.3
     dev: false
 
   /@codemirror/commands@6.2.4:
@@ -857,8 +871,8 @@ packages:
       yargs: 17.7.2
     dev: false
 
-  /@knowlearning/agents@0.3.7:
-    resolution: {integrity: sha512-1l/e/OiRbZxvpg1iO2D/9j//s9D8bDTArqTxVvGzcJRjufBfww8pdzLXcCde6yu5ChroDjpnfGFHVVqw4Y6HMA==}
+  /@knowlearning/agents@0.3.13:
+    resolution: {integrity: sha512-8CKLuy/Zo3ewWIqRbIhObgyCFpeFFJxLCTuazKdHX5u4eMdYzIYE3Ckt6XbWzsvfObJO5KlqMXLv1rWzrEZ0sw==}
     dependencies:
       fast-json-patch: 3.1.1
       firebase: 9.21.0
@@ -870,6 +884,10 @@ packages:
 
   /@lezer/common@1.0.2:
     resolution: {integrity: sha512-SVgiGtMnMnW3ActR8SXgsDhw7a0w0ChHSYAyAUxxrOiJ1OqYWEKk/xJd84tTSPo1mo6DXLObAJALNnd0Hrv7Ng==}
+    dev: false
+
+  /@lezer/common@1.0.3:
+    resolution: {integrity: sha512-JH4wAXCgUOcCGNekQPLhVeUtIqjH0yPBs7vvUdSjyQama9618IOKFJwkv2kcqdhF0my8hQEgCTEJU0GIgnahvA==}
     dev: false
 
   /@lezer/css@1.1.2:

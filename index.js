@@ -10,6 +10,8 @@ import 'mocha/mocha.css'
 
 window.Agent = browserAgent()
 
+//Agent.debug()
+
 //  set up some globals for ease of use in test files
 window.expect = chai.expect
 window.uuid = uuid
