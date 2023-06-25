@@ -29,8 +29,8 @@ dependencies:
     specifier: ^6.12.0
     version: 6.12.0
   '@knowlearning/agents':
-    specifier: ^0.4.3
-    version: 0.4.3
+    specifier: ^0.4.5
+    version: 0.4.5
   '@vitejs/plugin-basic-ssl':
     specifier: ^1.0.1
     version: 1.0.1(vite@4.3.5)
@@ -871,8 +871,8 @@ packages:
       yargs: 17.7.2
     dev: false
 
-  /@knowlearning/agents@0.4.3:
-    resolution: {integrity: sha512-iUkZqTQtTUSIHiqK+8MgQ6WiC081Hva/kjUafMCFwd0CJSUbSudYd/l8WfX5MFxcyLx9SusOkPwK7gDWitj4PQ==}
+  /@knowlearning/agents@0.4.5:
+    resolution: {integrity: sha512-92lStOAIoH6n1Uvrkj+wDNEuQMXg0k1/hOE0MtKwvdyhHENBuwS5Z/zIXXr0IGaApmGR12nPxRG5q6OH6xDzWA==}
     dependencies:
       fast-json-patch: 3.1.1
       firebase: 9.23.0
