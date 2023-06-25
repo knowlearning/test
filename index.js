@@ -1,9 +1,10 @@
 import { v1 as uuid } from 'uuid'
 import chai from 'chai/chai.js'
 import 'mocha/mocha.js'
-import mutate from './mutate.js'
-import watch from './watch.js'
-import reconnect from './reconnect.js'
+import mutate from './tests/mutate.js'
+import watch from './tests/watch.js'
+import reconnect from './tests/reconnect.js'
+import arrays from './tests/arrays.js'
 import { browserAgent } from '@knowlearning/agents'
 
 import 'mocha/mocha.css'
@@ -35,8 +36,11 @@ document.body.appendChild(container)
 
 mocha.run()
 
+Agent.debug()
+
 describe('Core API', function () {
   mutate()
+  arrays()
   watch()
   reconnect()
 })
